@@ -1,0 +1,13 @@
+.charities-page{padding:80px 0;}
+.charities-header{text-align:center;margin-bottom:48px;}
+.charities-header h1{font-family:var(--font-display);font-size:clamp(28px,4vw,48px);font-weight:800;letter-spacing:-0.02em;margin:12px 0;}
+.charities-header p{color:var(--text-2);font-size:17px;}
+.charities-filters{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:40px;}
+.cat-tabs{display:flex;gap:4px;flex-wrap:wrap;}
+.charities-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;}
+.charity-list-card{position:relative;display:block;color:inherit;}
+.featured-badge{position:absolute;top:16px;right:16px;background:var(--gold-dim);color:var(--gold);font-size:11px;font-weight:700;letter-spacing:0.08em;padding:3px 10px;border-radius:100px;}
+.charity-info h3{font-family:var(--font-display);font-size:19px;font-weight:700;margin-bottom:8px;}
+.charity-info p{color:var(--text-2);font-size:14px;line-height:1.6;margin-bottom:14px;}
+.charity-meta{display:flex;align-items:center;gap:10px;}
+.sub-count{font-size:12px;color:var(--text-3);}

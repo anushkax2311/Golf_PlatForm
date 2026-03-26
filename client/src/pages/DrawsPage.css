@@ -1,0 +1,31 @@
+.draws-page{padding:80px 0;}
+.draws-header{text-align:center;margin-bottom:48px;}
+.draws-header h1{font-family:var(--font-display);font-size:clamp(28px,4vw,48px);font-weight:800;letter-spacing:-0.02em;margin:12px 0;}
+.draws-header p{color:var(--text-2);font-size:17px;}
+.current-draw-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:40px;display:flex;gap:48px;align-items:flex-start;margin-bottom:48px;}
+.cd-badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--text-2);margin-bottom:12px;}
+.cd-left h2{font-family:var(--font-display);font-size:32px;font-weight:800;margin-bottom:24px;}
+.cd-pool{display:flex;gap:24px;flex-wrap:wrap;}
+.pool-item{background:var(--bg-2);border-radius:var(--radius);padding:14px 18px;}
+.pool-label{font-size:11px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);margin-bottom:4px;}
+.pool-val{font-family:var(--font-display);font-size:22px;font-weight:800;}
+.pool-val.gold{color:var(--gold);}
+.cd-right{flex-shrink:0;text-align:center;}
+.cd-status{font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:16px;}
+.cd-status.published{color:var(--success);}
+.cd-status.upcoming{color:var(--text-3);}
+.winning-numbers,.number-placeholders{display:flex;gap:10px;}
+.draw-mechanics{margin-bottom:48px;}
+.draw-mechanics h2,.past-draws h2{font-family:var(--font-display);font-size:28px;font-weight:800;margin-bottom:24px;}
+.mechanics-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+.mechanic-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;}
+.mechanic-icon{font-size:28px;margin-bottom:12px;}
+.mechanic-card h3{font-family:var(--font-display);font-size:15px;font-weight:700;margin-bottom:8px;}
+.mechanic-card p{color:var(--text-2);font-size:13px;line-height:1.6;}
+.past-draws{margin-top:48px;}
+.gold-text{color:var(--gold);font-weight:600;}
+@media(max-width:768px){
+  .current-draw-card{flex-direction:column;gap:24px;}
+  .mechanics-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:480px){.mechanics-grid{grid-template-columns:1fr;}}
